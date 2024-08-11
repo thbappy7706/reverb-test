@@ -17,5 +17,13 @@ export default {
         },
     },
 
-    plugins: [forms],
+    // plugins: [forms],
+
+    plugins: [
+        require('daisyui'),
+        forms
+    ],
+    daisyui: {
+        themes: ["light", "dark", "cupcake"],
+    },
 };
